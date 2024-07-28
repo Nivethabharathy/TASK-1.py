@@ -10,6 +10,7 @@ def caesar_cipher(text, shift):
             encrypted_text += char
     return encrypted_text
 
+
 def caesar_decipher(text, shift):
     decrypted_text = ""
     for char in text:
